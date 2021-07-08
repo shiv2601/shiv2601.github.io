@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Metadata of the Webpage -->
+  <!-- Character-set Metadata -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Viewport Metadata -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Description Metadata-->
+  <meta name="description" content="Portfolio website of Shiv Kumar Bhardwaj" />
+  <!-- Author Metadata -->
+  <meta name="author" content="Pran-jal" />
+  <!-- Webpage Logo -->
+  <link rel="shortcut icon" href="./assets/img/favicon.ico" />
+  <!-- Webpage Title -->
+  <title>S.K. Bhardwaj</title>
+
+  <!-- Import CSS: Main Stylesheet -->
+  <link rel="stylesheet" href="./assets/main.css" />
+  <link rel="stylesheet" href="./assets/font-awesome/css/font-awesome.min.css">
+</head>
+
+<body>
+  <div id="particles-js">
+    <div class="header">
+      <h1>
+        <span class="site-title">Shiv Kumar Bhardwaj</span>
+        <div class="site-description">
+          <p id="typed"></p>
+        </div>
+        <span class="site-description">Cameraman • Freelancer • P.I.B</span>
+      </h1>
+      <div class="header-icons">
+        <a aria-label="My CV" target="_blank" href="./assets/CV.pdf">
+          <i class="icon fa fa fa-file-pdf-o"></i>
+        </a>
+        <a aria-label="Send Email" href="mailto:shivbhardwaj2601@gmail.com" target="_blank"><i
+            class="icon fa fa-envelope"></i></a>
+      </div>
+      <div class="header-links">
+        <a class="link" href="#about" data-scroll>About Me</a>
+        <a class="link" href="#projects" data-scroll>Projects</a>
+        <a class="link" href="#experience" data-scroll>Experience</a>
+        <a class="link" href="#education" data-scroll>Education</a>
+      </div>
+    </div>
+    <a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
+  </div>
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="user-details">
+      <h1>My Story</h1>
+      <img src="./assets/photos/main.jpg" alt="Professional Me" width="25%" />
+      <p><br>
+        I am a Professional cameraman from Delhi NCR, with a experience of 24 years and PIB accreditation.
+        I have alse worked as a freelancer with many news channels and production houses.
+        Currently I an working with RSTV, but am open to new opportunities and looking for the same.
+      </p>
+    </div>
+
+    <!-- User Specifics -->
+    <div class="user" text-align="center">
+
+      <!-- Technology Stack #1: Languages -->
+      <div class="tech">
+        <h2>Channels</h2>
+
+        <img src="./assets/photos/12.png" width="22%" />
+        &nbsp;  &nbsp;
+        <img src="./assets/photos/11.png" width="28%" />
+        &nbsp;  &nbsp;
+        <img src="./assets/photos/14.jpg" width="18%" />
+        <img src="./assets/photos/13.svg" width="28%" />
+        &nbsp;  &nbsp;
+        <img src="./assets/photos/15.jpg" width="28%" />
+        <p>
+          Some Channels I have Worked with...
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+
+
+
+
+  <footer class="footer">
+    <p>&copy; Shiv Kumar Bhardwaj, 2021</p>
+  </footer>
+
+  <!-- Import JS: Particles Theme -->
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <!-- Import JS: Sweet Scroll -->
+  <script src="./assets/js/sweet-scroll.min.js"></script>
+  <!-- Import JS: Typed.js -->
+  <script src="./assets/js/typed.js"></script>
+  <script>
+    var typed = new Typed("#typed", {
+      showCursor: false,
+      strings: ["| Cameraman", "| Freelancer", "| P.I.B"],
+      typeSpeed: 80,
+      backSpeed: 80,
+      backDelay: 1800,
+      loop: true,
+      contentType: null,
+    });
+  </script>
+  <!-- Import JS: Main Script -->
+  <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
