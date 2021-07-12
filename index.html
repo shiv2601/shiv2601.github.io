@@ -23,12 +23,16 @@
 </head>
 
 <body>
+  <!-- <div class="scroll-up-btn">
+    <i class="fa fa-angle-up"></i>
+  </div> -->
   <div id="particles-js">
     <div class="header">
       <h1>
-        <span class="site-title">Shiv Kumar Bhardwaj</span>
+        <span class="site-title"> Shiv Kumar Bhardwaj</span>
         <div class="site-description">
-          <p id="typed"></p>
+          <span id="typed"></span>
+          <span class="cursor">|</span>
         </div>
         <span class="site-description">Cameraman • Freelancer • P.I.B</span>
       </h1>
@@ -54,11 +58,13 @@
     <div class="user-details">
       <h1>My Story</h1>
       <img src="./assets/photos/main.jpg" alt="Professional Me" width="25%" />
+      <div class="about-me">
       <p><br>
         I am a Professional cameraman from Delhi NCR, with a experience of 24 years and PIB accreditation.
-        I have alse worked as a freelancer with many news channels and production houses.
-        Currently I an working with RSTV, but am open to new opportunities and looking for the same.
+        I have worked as a freelancer with many news channels and production houses.
+        Currently I am working with RSTV, but open to new and exciting opportunities.
       </p>
+    </div>
     </div>
 
     <!-- User Specifics -->
@@ -66,7 +72,14 @@
 
       <!-- Technology Stack #1: Languages -->
       <div class="tech">
-        <h2>Channels</h2>
+        <div class="channel">
+          <h2 style =
+            "width: 100%; 
+            text-align: center; 
+            border-bottom: 3px solid #000; 
+            line-height: 0px;
+            margin: 10px 0 20px;"><span>&nbsp; Channels &nbsp;</span></h2>
+        </div>
 
         <img src="./assets/photos/12.png" width="22%" />
         &nbsp;  &nbsp;
@@ -89,7 +102,7 @@
 
 
   <footer class="footer">
-    <p>&copy; Shiv Kumar Bhardwaj, 2021</p>
+    <p>&copy;<a href="#home"> Shiv Kumar Bhardwaj</a>, 2021</p>
   </footer>
 
   <!-- Import JS: Particles Theme -->
@@ -100,15 +113,16 @@
   <script src="./assets/js/typed.js"></script>
   <script>
     var typed = new Typed("#typed", {
-      showCursor: false,
-      strings: ["| Cameraman", "| Freelancer", "| P.I.B"],
-      typeSpeed: 80,
-      backSpeed: 80,
-      backDelay: 1800,
-      loop: true,
-      contentType: null,
+    showCursor: false,
+    strings: [" Cameraman ", " Freelancer", " P.I.B"],
+    typeSpeed: 80,
+    backSpeed: 80,
+    backDelay: 1800,
+    loop: true,
+    contentType: null,
     });
   </script>
+
   <!-- Import JS: Main Script -->
   <script src="./assets/js/main.js"></script>
 </body>
